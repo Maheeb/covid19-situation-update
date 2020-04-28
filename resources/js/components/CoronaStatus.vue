@@ -85,9 +85,6 @@
                         this.totalRecovered = response.data.Global.TotalRecovered;
                         this.totalDeath = response.data.Global.TotalDeaths;
 
-
-
-                        console.log(this.totalConfirmed,this.totalRecovered,this.totalDeath);
                         // document.getElementById('test_5').innerHTML = "total: " + this.TotalRecovered;
 
                     }).catch(err => console.log(err));

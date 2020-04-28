@@ -24,6 +24,7 @@ window.Vue = require('vue');
 Vue.use(VueAxios, axios);
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('coronastatus', require('./components/CoronaStatus').default);
+Vue.component('countrystatus', require('./components/CountryStatus').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
